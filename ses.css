@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    font-size: 40px;
+}
+.increase, .reset, .decrease{
+    display: inline;
+    margin: 3%;
+}
