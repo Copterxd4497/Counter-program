@@ -1,8 +1,19 @@
-body{
+body {
+    display: grid;
+    place-items: center;
+    height: 50vh; 
+    margin: 0;
     text-align: center;
     font-size: 40px;
 }
-.increase, .reset, .decrease{
+
+main {
+    border: solid;
+    width: 12em;
+    border-radius: 15px;
+}
+
+.increase, .reset, .decrease {
     display: inline;
     margin: 3%;
 }
