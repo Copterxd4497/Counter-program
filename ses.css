@@ -1,19 +1,22 @@
-body {
-    display: grid;
-    place-items: center;
-    height: 50vh; 
-    margin: 0;
+#countLabel {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 10em;
+    font-family: Helvetica;
 }
-
-main {
-    border: solid;
-    width: 12em;
-    border-radius: 15px;
+.btnContainer {
+    text-align: center;
 }
-
-.increase, .reset, .decrease {
-    display: inline;
-    margin: 3%;
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(77, 211, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover {
+    background-color: rgb(50, 147, 252);
 }

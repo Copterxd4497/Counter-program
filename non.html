@@ -1,25 +1,20 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Counter program</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>Counter Program</title>
     <link rel="stylesheet" href="ses.css">
 </head>
 
 <body>
-    <header>
-        <p class="counter">Counter</p>
-    </header>
-
-    <main class="main">
-        <p class="number">0</p>
-        <p class="increase">increase</p>
-        <p class="reset">reset</p>
-        <p class="decrease">decrease</p>
-    </main>
-
-
-
+    <label id="countLabel">0</label><br>
+    <div class="btnContainer">
+        <button class="buttons" id="decrease">decrease</button>
+        <button class="buttons" id="reset">reset</button>
+        <button class="buttons" id="increase">increase</button>
+    </div>
     <script type="module" src="new.js"></script>
 </body>
 
